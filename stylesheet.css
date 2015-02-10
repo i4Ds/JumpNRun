@@ -1,0 +1,113 @@
+﻿body {                
+    margin: 0;
+    overflow: hidden;
+    font-family: arial;                          
+}
+
+
+.level {
+    position: absolute;
+    height: 100%;
+    width: 4000%;             
+}
+
+.background {
+    background-image: url(images/background5.png); 
+    position: absolute;
+    height: 100%;
+    width: 4000%;
+}
+
+#background {
+    position: absolute;
+    background-image: url(images/background5.png);
+    bottom: 0px;
+}
+
+#stickmanObject {
+    position: absolute;
+    width: 27.5px;
+    height: 37.5px;
+    background-image: url(images/stickmanSprite275right.png);
+    background-position: 0px 0px;
+    z-index: 10;
+}
+
+.stickmanNormal{
+    position: absolute;
+    opacity: 1;
+    bottom: 50px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.platform {
+    width: 200px;
+    height: 50px;
+    background-image: url(images/platform7.png);
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+}
+.platform2 {
+    width: 200px;
+    height: 100%;
+    background-image: url(images/platform5.jpg);
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+}
+
+.box {
+    width: 400px;
+    height: 4px;
+    background-image: url(images/box3.jpg);
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+}
+
+.enemy {
+    width: 400px;
+    height: 4px;
+    background-image: url(images/seeigel5.png);
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+}
+
+.end {
+    width: 30px;
+    height: 60px;
+    background-image: url(images/end.png);
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+}
+
+

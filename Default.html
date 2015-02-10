@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+</head>
+<body>
+    <script src="JS/box2dcostum.js" type="text/javascript"></script>
+    <script src="JS/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="JS/Platform.js" type="text/javascript"></script>
+    <script src="JS/Box.js" type="text/javascript"></script>
+    <script src="JS/Enemy.js" type="text/javascript"></script>
+    <script src="JS/End.js" type="text/javascript"></script>
+
+    <div class="background">
+        <div id="background" style="height: 100%; width: 4000%;"></div>
+    </div>
+    
+    <div class="level">
+        <div id="stickmanObject" style="left: 50px; bottom: 550px;"></div>      
+    </div>
+
+    <div id="stickman">  
+        <script id="stickmanRun" src="JS/Stickman.js" type="text/javascript"></script>
+    </div>
+    
+    <div id="levels">
+        <script class="levels" src="JS/Levels/level1.js" type="text/javascript"></script>
+    </div>
+    
+    <script src="JS/Loop.js" type="text/javascript"></script> 
+    <script src="JS/Controller.js" type="text/javascript"></script>
+    <script src="JS/Run.js" type="text/javascript"></script>
+    <script>
+        level.init();
+        run();
+    </script>
+</body>
+</html>
